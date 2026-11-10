@@ -398,6 +398,7 @@ section{
 }
 
 footer{
+    display:flex;
     margin:2vw auto;
     padding:1vw 0;
     justify-content: center;
@@ -407,6 +408,23 @@ footer{
     text-align: center;
     position:relative;
     background-color: #0000006a;
+}
+.footer-left{
+    width:30%;
+    margin: auto;
+}
+.footer-center{
+    width:30%;
+    margin: auto;
+}
+.footer-right{
+    width:30%;
+    margin: auto 2vw;
+    text-align: right;
+    align-items: right;
+}
+.badge{
+    height:3vw;
 }
 /*----------------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------   PRIVACY POLICY  -------------------------------------------------*/
@@ -894,6 +912,28 @@ footer{
         font-size: 3vw;
         color:var(--primary-font-color--);
         }
+    }
+    footer{
+        display: block;
+    }
+    .footer-left{
+        width:100%;
+        margin: auto;
+        display: block;
+    }
+    .footer-center{
+        width:100%;
+        margin: auto;
+        display: block;
+    }
+    .footer-right{
+        width:100%;
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+    .badge{
+        height:8vw;
     }
 }
 /*----------------------------------------------------------------------------------------------------------------*/
